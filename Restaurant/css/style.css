@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F6F7F8;;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0 100%), url("https://s3-alpha-sig.figma.com/img/040c/3118/751eeb1506776e2936a1af0272fee9ce?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BZ2jrPgo4l1GYneTT0EsRcoGvVM-oZUfzNjgshuNn-17mKl3oN8n5MGY6nWSiqKRCmwu~vih4gpwC2xOXzYckDe6Z18NdnyHNk1PQqKWEV6vwSsQvImvhamjKo3ZvF3jSKX7k8XPRpDyfoiNGuwgg6PpymUQy4pWr9cwqkjevIbwQLb6afyjZqldPTl-x29Rm6gWZcJsgIbbK3R9k-b1oRxhjx1iDTMd5YPkOkvicgrhffLlO2xOR5OquQn8JprKcyWYuBVExNzf0sfWDJXqUy84V8F65APVRihEQWk0uAEh6Mx~UH7DwhJaFslebYy-a2TN1Jz8wTfeZ~20mGTFpQ__");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 456px;    
+    color:  #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+.img-burguer{
+    display: flex;
+    width: 185px;
+    height: 185px;
+    border-radius: 300px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/1b0b/9cea/27943579e9153967e447d110cb38465b?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b7R4Wl5GanvGi25aYkeBWi3RxPmQxDdF94GAKnr5w6WWDJ42Pip-y44n2tPUJpzgf-oi6BFfBe0nPNypTX6Oct1DcCc4FtfGndmw10mHz52-FvMuBPo4VHtrc4ow-A9lbZumQUTUkrWHzJ2WGqYhkTfaEDdcqx6mjfPe64BdHZPIdsGeSmjNIn59umADBOLfAGlaXOvGFpue98SeBHTQAZKHs9FwM4iis1bYUlyTUpdg5CUy~zfFxW21lrtht0K3cnlw-ULwnzHbOY4V5CJli7M4~jL6rXocXNQ0LnxudMaF0ybNIe7U1xlp8YCroOGrqS7ZXrsJq4-P-L18pfD9uA__");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-burguer img{
+   width: 100%;
+}
+
+.menu-title{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 26px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F7F8;
+}
+
+.hamburguers{
+    background-color: #F6F7F8;
+    width: 612px;
+    height: 144px;
+    display: flex;
+    gap: 20px;
+}
+
+.hamburguers-infos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 325px;
+}
+
+.btn-carrinho{
+    height: 25px;
+    width: 40px;
+}
+
